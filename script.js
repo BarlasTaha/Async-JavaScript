@@ -118,16 +118,4 @@ async function getAllPosts() {
     console.log("error",error);
 }
 }
-getAllPosts()    
-async function getAllPosts() {
-    try{
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts/1')
-    const data = await response.json()
-    console.log("resp", response);
-
-}catch(error){
-    console.log("error",error);
-}
-}
-
-getAllPosts()    
+getAllPosts()  
